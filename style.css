@@ -448,14 +448,15 @@ i.material-icons-outlined {
     font-size: 1.5rem;
 }
 
-@media screen and (max-width:1260px) {
+@media screen and (max-width:600px) {
     header {
         width: 10%;
         padding: 10px 0;
     }
 
     main {
-        margin-left: 10%;
+        margin-left: 20%;
+        width: 400px;
 
     }
     
@@ -463,7 +464,7 @@ i.material-icons-outlined {
         display: none;
     }
     header .tweet-button {
-        width: 55px;
+        width: 60px;
         border-radius: 50%;
         font-size: 1.4rem;
     }
@@ -483,6 +484,8 @@ i.material-icons-outlined {
 
     .nav-links {
         align-items: center;
+        margin-right: 0px;
+        width: 50px;
     }
 
     .nav-links a i {
@@ -493,4 +496,54 @@ i.material-icons-outlined {
         padding: 10px 10px;
     }
 
+    .side-feed {
+        width: 30%;
+    }
+
+    .main-flex {  width: 428%; 
+    }
+
+
+    .main-feed {
+        height:200px ;
+        width: 428px; 
+        margin-right:50% ;
+
+    }
+    .tweet-icons  {
+        height: 0;
+        width: 180px; 
+        margin: 0;
+        padding: 0;
+    }
+    .home-bar {
+        width: 305px; 
+
+    }
+    .feed-tweet {
+        width: 370px; 
+        height: 50%;
+
+    }
+
+    .new-tweet {
+        width: 200px;
+    }
+    .side-feed {
+        display: none;
+    }
+    .main-flex  {
+        width: 400px;
+        flex-direction: row;
+        font-size: 1.4rem;
+    }
+    .feed-tweet-details {
+        width: 220px; 
+    }
+
+    .tweeter-datails {
+        width: 220px; 
+
+
+    }
 }
